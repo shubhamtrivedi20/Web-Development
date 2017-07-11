@@ -1,0 +1,172 @@
+body {
+	background: #ededed;
+	color: #404040;
+	font: 13px/1.6 "Arvo", Helvetica, Arial, sans-serif;
+}
+img {
+	max-width: 100%;
+	vertical-align: bottom;
+}
+a {
+	color: #2985d1;
+}
+header {
+	background: rgba(0,0,0, 0.2);
+}
+.container {
+	max-width: 1100px;
+	margin: auto;
+	padding: 10px 20px;
+}
+nav {
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+}
+nav a {
+	color: #fff;
+	font-family: "Arvo", Helvetica, Arial, sans-serif;
+	display: block;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.banner-wrapper {
+	color: #fff;
+	background: #0066a5;
+	background: linear-gradient(to bottom, rgba(0,102,165, 0.7), rgba(0,65,135, 0.7)),
+				url(../img/inspiration-point.jpg) no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	border-top: 4px solid #063456;
+	border-bottom: 4px solid #063456;
+}
+#features {
+	padding-top: 15px;
+}
+#features article {
+	margin-bottom: 60px;
+}
+#features a {
+	text-decoration: none;
+}
+#features a:hover {
+	text-decoration: underline;
+}
+h1 {
+	font-size: 36px;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+h1 + p {
+	font-size: 20px;
+	margin-top: 0;
+}
+#features p:first-of-type {
+	color: #999;
+	font-style: italic;
+}
+#features *:last-child {
+	margin-bottom: 0;
+}
+#features p:last-child a:after {
+	content: " »"
+}
+#features article > a {
+	display: block;
+}
+#features article > a:hover {
+	outline: 10px solid #2985d1;
+}
+
+@media (max-width: 799px) {
+	nav a {
+		padding: 10px;
+	}
+	nav a:hover {
+		color: #efc51f;
+	}
+}
+
+@media (min-width: 800px) {
+	header {
+		padding: 20px 10px;
+	}
+	header nav {
+		text-align: right;
+		position: relative;
+	}
+	nav li {
+		margin-right: 30px;
+	}
+	nav li:first-child {
+		position: absolute;
+		left: 0;
+	}
+	.ir {
+		background: no-repeat url(../img/tahoe-sprite.png);
+		background-size: 513px 200px;
+		height: 100px;
+		text-indent: -9000px;
+		overflow: hidden;
+	}
+	#logo {
+		width: 130px;
+	}
+	#logo:hover {
+		background-position: 0 -100px;
+	}
+	#excursions {
+		width: 155px;
+		background-position: -130px 0;
+	}
+	#excursions:hover {
+		background-position: -130px -100px;
+	}
+	#about {
+		width: 100px;
+		background-position: -285px 0;
+	}
+	#about:hover {
+		background-position: -285px -100px;
+	}
+	#contact {
+		width: 128px;
+		background-position: -385px 0;
+	}
+	#contact:hover {
+		background-position: -385px -100px;
+	}
+	#features {
+		padding: 40px 20px;
+	}
+	#features article {
+		width: 29%;
+		padding: 2%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	h1 {
+		font-size: 80px;
+	}
+	h1 + p {
+		font-size: 30px;
+		margin: -5px 0 80px;
+	}
+	.banner-wrapper p:nth-child(3){
+		width: 50%;
+		margin: 10px auto;
+		text-align: left;
+	}
+	#features article:nth-child(odd) {
+		background: #ddd;
+	}
+}

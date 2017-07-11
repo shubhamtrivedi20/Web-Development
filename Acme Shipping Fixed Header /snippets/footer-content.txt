@@ -1,0 +1,17 @@
+<p class="copyright">©Copyright Acme Shipping, Inc. All Rights Reserved.</p>
+<nav>
+	<ul>
+		<li>
+			<a href="#">About</a>
+		</li>
+		<li>
+			<a href="#">Services</a>
+		</li>
+		<li>
+			<a href="#">FAQ</a>
+		</li>
+		<li>
+			<a href="#">Contact</a>
+		</li>
+	</ul>
+</nav>

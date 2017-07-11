@@ -1,0 +1,174 @@
+body {
+	color: #333;
+	font-family: "Glegoo", serif;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: url(../img/cityscape.png) repeat-x bottom center / 200px 75px;
+	font-family: "Bree Serif", serif;
+	padding: 10px;
+	text-align: center;
+}
+header a {
+	display: block;
+	text-decoration: none;
+}
+h1 {
+	margin: 0 auto;
+	width: 140px;
+}
+h1 a {
+	background: url(../img/you-are-here.png) no-repeat center center / cover;
+	height: 0;
+	margin: auto;
+	padding-top: 65.01%;
+}
+header nav {
+	margin-top: 10px;
+}
+header li {
+	display: inline-block;
+}
+header nav a {
+	color: #f46245;
+	font-size: 1.2em;
+	padding: 10px;
+	position: relative;
+}
+header nav a:hover {
+	background: #f46245;
+	color: #fff;
+	border-radius: 4px;
+}
+.new-york header a[href="new-york.html"]:before,
+.san-francisco header a[href="san-francisco.html"]:before,
+.chicago header a[href="chicago.html"]:before,
+.austin header a[href="austin.html"]:before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 1px;
+	border-top: 10px solid #f46245;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	position: absolute;
+	left: 50%;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+.new-york header a[href="new-york.html"]:hover,
+.san-francisco header a[href="san-francisco.html"]:hover,
+.chicago header a[href="chicago.html"]:hover,
+.austin header a[href="austin.html"]:hover {
+	color: #f46245;
+	background: none;
+}
+.hero {
+	font-family: "Bree Serif", serif;
+	background: no-repeat center bottom / cover;
+}
+.hero h2 {
+	background: rgba(0,0,0, 0.4);
+	color: #fff;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 1.4;
+	margin: 0;
+	padding: 21% 20px 20%;
+	text-align: center;
+	text-transform: uppercase;
+}
+.welcome {
+	background-image: url(../img/times-square.jpg);
+}
+.new-york-hero {
+	background-image: url(../img/new-york.jpg);
+}
+.san-francisco-hero {
+	background-image: url(../img/san-francisco.jpg);
+}
+.chicago-hero {
+	background-image: url(../img/chicago.jpg);
+}
+.austin-hero {
+	background-image: url(../img/austin.jpg);
+}
+.main {
+	line-height: 1.6;
+	padding: 10px 20px;
+}
+footer {
+	border-top: solid 1px #ddd;
+	color: #999;
+	text-align: center;
+	font: 14px "Bree Serif", serif;
+	padding: 20px;
+}
+footer li {
+	display: inline-block;
+}
+footer a {
+	color: #999;
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+img {
+	max-width: 100%;
+}
+.container {
+	margin: auto;
+	max-width: 1200px;
+	position: relative;
+}
+.ir {
+	overflow: hidden;
+	text-indent: -9000px;
+}
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+@media only screen and (min-width: 800px) {
+	h1 {
+		float: left;
+		width: 120px;
+	}
+	header {
+		padding: 20px;
+	}
+	header nav {
+		bottom: -10px;
+		position: absolute;
+		right: 0;
+	}
+	.hero h2 {
+		font-size: 5em;
+		padding: 11% 20px 10%;
+	}
+	.main {
+		line-height: 1.8;
+		padding: 20px 20%;
+	}
+	.main p {
+		font-size: 13px;
+	}
+	.main p:first-child {
+		font-size: 16px;
+	}
+	footer {
+		font-size: 11px;
+	}
+}

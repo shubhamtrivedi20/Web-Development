@@ -1,0 +1,161 @@
+body {
+	color: #666;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.7;
+}
+header {
+	border-bottom: 1px solid #ddd;
+	padding: 30px 20px;
+}
+header nav {
+	position: relative;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align: middle;
+}
+nav a {
+	color: #666;
+	display: block;
+	text-decoration: none;
+}
+nav li:last-child {
+	margin-right: 0;
+}
+nav a:hover {
+	color: #6d98bf;
+}
+.ir {
+	height: 0;
+	overflow: hidden;
+	text-indent: -9000px;
+}
+.logo a {
+	background: url(../img/helping-hands-volunteers-logo@2x.png) no-repeat center center / contain;
+	height: 76px;
+	width: 220px;
+	text-align: left;
+}
+.container {
+	margin: 0 auto;
+	max-width: 960px;
+}
+.form-container {
+	padding: 30px;
+	text-align: center;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 1.1;
+	text-transform: uppercase;
+	color: #000;
+	margin: 5px 0 40px;
+}
+h1 + p {
+	margin: 5px 0 30px;
+}
+form {
+	border: solid 1px #ddd;
+	border-radius: 4px;
+	padding: 30px;
+	text-align: left;
+}
+footer {
+	border-top: solid 1px #ddd;
+	margin-top: 30px;
+	padding: 30px;
+	text-align: center;
+}
+footer a, .copyright {
+	color: #aaa;
+	font-size: 12px;
+}
+.copyright {
+	margin-top: 20px;
+}
+input[type="text"], 
+textarea {
+	display: block;
+	margin: 5px 0 15px;
+	padding: 6px 8px;
+	width: 100%;
+	box-sizing: border-box;
+	background: #eee;
+}
+input, textarea {
+	border: none;
+	outline: none;
+	border-radius: 4px;
+}
+textarea {
+	min-height: 120px;
+}
+form p {
+	margin: 20px 0 5px;
+}
+label[for="extra"] {
+	margin-top: 20px;
+	display: block;
+}
+input:focus,
+textarea:focus {
+	background: #aaa;
+	color: #fff;
+}
+input[type="checkbox"] {
+	margin: 0 4px 0 30px;
+}
+input[type="submit"] {
+	background: #6bb359;
+	color: #fff;
+	padding: 10px;
+	margin-top: 15px;
+}
+input[type="submit"]:hover {
+	background: #449d44;
+}
+
+@media (max-width: 599px) {
+	header {
+		padding-top: 20px;
+	}
+	.logo {
+		display: block;
+		margin-right: 0;
+	}
+	.logo a {
+		margin: 0 auto 30px;
+		padding-top: 24%;
+		width: 90%;
+		height: auto;
+	}
+}
+
+@media (min-width: 800px) {
+	header nav {
+		text-align: right;
+	}
+	h1 + p {
+		margin: 5px auto 30px;
+		max-width: 540px;
+		text-align: left;
+	}
+	.logo {
+		left: 0;
+		position: absolute;
+		top: -22px;
+	}
+	.form-column {
+		margin: 30px auto;
+		width: 60%;
+	}
+}

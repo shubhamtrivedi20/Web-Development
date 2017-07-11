@@ -1,0 +1,8 @@
+<div class="container">
+    <article>
+        <h1>Let's Go Exploring!</h1>
+        <p>Come to Tahoe. You won't believe your eyes.</p>
+        <p>"...at last the Lake burst upon us—a noble sheet of blue water lifted six thousand three hundred feet above the level of the sea, and walled in by a rim of snow-clad mountain peaks that towered aloft full three thousand feet higher still!...As it lay there with the shadows of the mountains brilliantly photographed upon its still surface I thought it must surely be the fairest picture the whole earth affords."</p>
+        <p>&mdash;Mark Twain</p>
+    </article>
+</div>
